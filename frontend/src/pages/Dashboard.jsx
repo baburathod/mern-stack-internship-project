@@ -18,7 +18,7 @@ const Dashboard = () => {
     <div className="main-content">
       <div className="welcome-header">
         <div className="avatar">{initials}</div>
-        <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Welcome, {user?.name}! 👋</h1>
+        <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Welcome, {user?.name}! </h1>
         <p style={{ color: 'var(--text-muted)', fontSize: '1.25rem' }}>Here is your Creoverse Academy profile</p>
       </div>
 
@@ -65,7 +65,7 @@ const Dashboard = () => {
         <div className="info-card" style={{ borderColor: 'var(--secondary)' }}>
           <div className="card-content">
             <h3>Status</h3>
-            <p style={{ color: 'var(--secondary)' }}>Completed 🎓</p>
+            <p style={{ color: 'var(--secondary)' }}>Completed </p>
           </div>
         </div>
       </div>
