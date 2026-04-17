@@ -1,12 +1,10 @@
 # MERN Stack Todo Application
 
-🌐 **Live Demo:** [https://mern-todo-creoverse.vercel.app](https://mern-todo-creoverse.vercel.app)
-
 ## Submitted By
 - **Name:** Ramavath Babu
 - **Organization:** Creoverse Academy
 - **Domain:** MERN Stack Development
-- **GitHub:** [baburathod](https://github.com/baburathod/mern-stack-internship-project)
+- **GitHub Profile:** [baburathod](https://github.com/baburathod)
 
 ## Technologies Used
 - **MongoDB** (Database)
