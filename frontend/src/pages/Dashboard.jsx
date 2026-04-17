@@ -65,7 +65,7 @@ const Dashboard = () => {
         <div className="info-card" style={{ borderColor: 'var(--secondary)' }}>
           <div className="card-content">
             <h3>Status</h3>
-            <p style={{ color: 'var(--secondary)' }}>Active Intern</p>
+            <p style={{ color: 'var(--secondary)' }}>Completed 🎓</p>
           </div>
         </div>
       </div>
