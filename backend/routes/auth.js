@@ -45,6 +45,7 @@ router.post('/register', async (req, res) => {
         email: user.email,
         domain: user.domain,
         internId: user.internId,
+        createdAt: user.createdAt,
         token: generateToken(user._id)
       });
     } else {
@@ -72,6 +73,7 @@ router.post('/login', async (req, res) => {
         email: user.email,
         domain: user.domain,
         internId: user.internId,
+        createdAt: user.createdAt,
         token: generateToken(user._id)
       });
     } else {

@@ -10,16 +10,11 @@ const userSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 // Auto-generate internId before saving a new user
-userSchema.pre('save', async function(next) {
+userSchema.pre('save', async function() {
   if (this.isNew) {
-    try {
-      const count = await mongoose.models.User.countDocuments();
-      this.internId = `CRV-2024-${String(count + 1).padStart(3, '0')}`;
-    } catch (err) {
-      next(err);
-    }
+    const count = await mongoose.models.User.countDocuments();
+    this.internId = `CRV-2024-${String(count + 1).padStart(3, '0')}`;
   }
-  next();
 });
 
 module.exports = mongoose.model('User', userSchema);

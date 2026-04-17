@@ -58,10 +58,12 @@ a {
   font-size: 1.875rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: var(--text-main);
   background: -webkit-linear-gradient(45deg, var(--primary), #d8b4fe);
+  background: linear-gradient(45deg, var(--primary), #d8b4fe);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* Forms */
@@ -229,6 +231,7 @@ a {
   font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-main);
+  word-break: break-word;
 }
 
 .welcome-header {

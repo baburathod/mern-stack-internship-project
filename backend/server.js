@@ -11,10 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/mern-todo', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/mern-todo')
 .then(() => console.log('✅ MongoDB connected successfully'))
 .catch(err => {
   console.error('❌ MongoDB connection error:', err);

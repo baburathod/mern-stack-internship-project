@@ -8,8 +8,7 @@ const Dashboard = () => {
   // Generate initials for avatar
   const initials = user?.name?.split(' ').map(n => n[0]).join('').toUpperCase() || 'U';
 
-  const joinDate = user ? new Date().toLocaleDateString('en-US', {
-    target: 'numeric',
+  const joinDate = user?.createdAt ? new Date(user.createdAt).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
