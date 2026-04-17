@@ -6,7 +6,7 @@
 - **Name:** Ramavath Babu
 - **Organization:** Creoverse Academy
 - **Domain:** MERN Stack Development
-- **GitHub:** [baburathod](https://github.com/baburathod/mern-todo-creoverse)
+- **GitHub:** [baburathod](https://github.com/baburathod/mern-stack-internship-project)
 
 ## Technologies Used
 - **MongoDB** (Database)
